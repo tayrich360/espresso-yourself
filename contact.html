@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel = "icon" type="image/x-icon" href ="img/espresso yourself.png" >
+  <title>Espresso Yourself</title>
+</head>
+<body>
+<main>
+<div id="grid-container">
+
+    <div id="header">
+
+        <div id="brand_name">
+            <a href="index.html"><img src="img/espresso yourself.png" style="width: 18vh; height: 10vh;"></a>
+         </div>
+
+        <div id="whole_nav">
+
+            <div class="topnav">
+            <a href="drinks.html">Drink</a>
+            <a href="pastries.html">Pastries</a>
+                
+        </div>
+    </div>
+    </div>
+<!-- Middle Page -->
+    <div id="article">
+        <div id="subhead">
+            <div class="insubhead">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            </div>
+        </div>
+
+    <!-- Section for contact -->
+    <p>
+
+    <div class="storytime"> For Equiries, Kindly leave your details such as name, email and club card number. Now sit back and relax, we will get back to you as soon as possible.</div>
+
+        <p><div class="contact_contain">
+        <!--Remember to put a url in url  -->
+      <div class= "contact-box" >
+        <form id= "contactForm" action="https://formsubmit.co/richardtay75@gmail.com" method="POST">
+          <label>
+          <p>
+          <lable for="name">Name:</lable>
+          <input type="text" id="name" name="name" required placeholder="Enter your name">
+          <div id="nameError" style="color: red;"></div>
+          </p>
+          <p> Email:
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </p>
+
+          <p><label id="card"> Club Card:  </label>
+          <input type="text" id= "creditCard" name="creditCard" placeholder="Enter a proxy club card number" required>
+          <div id="cardError" style="color: red;"></div>
+          </p>
+            <p>
+              <center><input type="submit" class="submitButton" value="Submit"><a href="mailto:challenge@dn-uk.com"></a></center>
+              <!-- <center><button class="button"><input type="submit" value="Submit details"> Submit</a></button></center> -->
+            </p>
+            </label>
+            <div id="validationResult"></div>
+          </form>
+      </div></p>
+
+      </p>
+    </div>
+<!-- End of article -->
+    </div>
+
+
+<!-- Begining of footer -->
+    <div id="footer">
+       <p><div id="bottom_nav"></p> 
+            <div class="media">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/richard-tay-68382616b" target="_blank">LinkedIn</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+</div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
