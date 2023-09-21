@@ -9,7 +9,7 @@
     "head head head" 
     "content content content" 
     "foot foot foot" ;
-    grid-template-rows: 9.5vh auto 80px;
+    grid-template-rows: 9.5vh auto 8.2vh;
     grid-template-columns: 100vw;
  }
 
