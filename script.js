@@ -52,7 +52,7 @@ document.getElementById("contactForm").addEventListener("submit", function (even
             validationResult.textContent += "Name is not valid. ";
         }
         if (!isCreditCardValid) {
-            validationResult.textContent += "Credit Card Number is not valid. ";
+            validationResult.textContent += "Club Card Number is not valid, please enter all 16 digits ";
         }
     }
 
